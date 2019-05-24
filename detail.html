@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>APP Detail</title>
+
+    <link rel="stylesheet" type="text/css" href="detail.css" />
+  </head>
+  <body data-fuc="detail">
+    <header class="header">
+      <a class="icon-back" data-fuc="back"></a>
+      <span>Transsion Apps</span>
+    </header>
+
+    <section class="content">
+      <img class="js-pic" src="" />
+      <div class="content-detail">
+        <h6 class="js-name">-</h6>
+        <p class="js-detail">-<em></em>-<em></em>-</p>
+      </div>
+
+      <div class="content-button">
+        <a class="btn-install js-install" href="" target="_blank" download>Install</a>
+        <a class="btn-download js-download" href="" target="_blank" download>Download</a>
+        <div>
+          <span class="js-qr" data-link="">Create a qr-code</span>
+          <div class="qrcode js-pop">
+            <div>
+              <div class="js-showcode"></div>
+              <span>close</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-summary">
+        <span class="content-title">Summary:</span>
+        <pre class="js-summary">
+          <div class="loading"></div>
+        </pre>
+      </div>
+
+      <div class="content-version">
+        <span class="content-title">Version list:</span>
+        <div class="js-version">
+          <div class="loading"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="copy">Copyright © 2019, Transsion.com. All rights reserved.</footer>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="qrcode.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

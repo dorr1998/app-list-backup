@@ -1,0 +1,40 @@
+###
+
+GET http://10.150.149.54:8088/appList/web/app/findAppList?flag=1&pageSize=10&page=1
+
+{
+  flag: 1,
+  appName: "",
+  page: 2,
+  pageSize: 10
+}
+
+###
+
+GET http://10.150.149.54:8088/appList/web/app/findAppDetail?appId=1
+# GET http://mi-test.shalltry.com/appList/web/app/findAppDetail?appId=1
+
+{}
+
+
+###
+
+
+{
+      "createTime": "1558608533000",
+      "appId": 1,
+      "appUrl": "http://apps.shalltry.com/apps/sample/1.2/app-debug.apk",
+      "id": 5,
+      "versionInfo": "* [王纪清]  (HEAD, origin/master) encode data with base64 (2019-05-21 12:45:54)\n* [王纪清]  encode data with base64 (2019-05-21 12:41:57)\n* [王纪清]  Update .gitlab-ci.yml (2019-05-21 02:52:07)",
+      "versionCode": "1.2",
+      "appSize": "1775817"
+    },
+    {
+      "createTime": "1558442815000",
+      "appId": 1,
+      "appUrl": "http://apps.shalltry.com/apps/sample/1.0/app_release.apk",
+      "id": 2,
+      "versionInfo": "* [王纪清]  (HEAD, origin/master) Update .gitlab-ci.yml (2019-05-21 09:40:40)\n* [王纪清]  Update .gitlab-ci.yml (2019-05-21 09:37:45)\n* [王纪清]  change gradle script (2019-05-21 17:34:45)",
+      "versionCode": "1.0",
+      "appSize": "1775695"
+    }
